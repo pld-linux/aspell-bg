@@ -1,6 +1,6 @@
 Summary:	Bulgarian dictionary for aspell
-Summary(bg):	Български речник за проверка на правописа за GNU Aspell
-Summary(pl):	Buіgarski sіownik dla aspella
+Summary(bg.UTF-8):   Р‘СЉР»РіР°СЂСЃРєРё СЂРµС‡РЅРёРє Р·Р° РїСЂРѕРІРµСЂРєР° РЅР° РїСЂР°РІРѕРїРёСЃР° Р·Р° GNU Aspell
+Summary(pl.UTF-8):   BuЕ‚garski sЕ‚ownik dla aspella
 Name:		aspell-bg
 Version:	4.0
 %define	subv	0
@@ -17,11 +17,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Bulgarian dictionary (i.e. word list) for aspell.
 
-%description -l bg
-Български речник за проверка на правописа за GNU Aspell.
+%description -l bg.UTF-8
+Р‘СЉР»РіР°СЂСЃРєРё СЂРµС‡РЅРёРє Р·Р° РїСЂРѕРІРµСЂРєР° РЅР° РїСЂР°РІРѕРїРёСЃР° Р·Р° GNU Aspell.
 
-%description -l pl
-Buіgarski sіownik (lista sіуw) dla aspella.
+%description -l pl.UTF-8
+BuЕ‚garski sЕ‚ownik (lista sЕ‚Гіw) dla aspella.
 
 %prep
 %setup -q -n aspell5-bg-%{version}-%{subv}
