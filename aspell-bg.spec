@@ -1,6 +1,6 @@
 Summary:	Bulgarian dictionary for aspell
-Summary(bg.UTF-8):   Български речник за проверка на правописа за GNU Aspell
-Summary(pl.UTF-8):   Bułgarski słownik dla aspella
+Summary(bg.UTF-8):	Български речник за проверка на правописа за GNU Aspell
+Summary(pl.UTF-8):	Bułgarski słownik dla aspella
 Name:		aspell-bg
 Version:	4.0
 %define	subv	0
