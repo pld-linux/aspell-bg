@@ -7,7 +7,7 @@ Version:	4.0
 Release:	1
 License:	GPL
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/bg/aspell5-bg-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/bg/aspell5-bg-%{version}-%{subv}.tar.bz2
 # Source0-md5:	f1d9f1587cc382f10f1c7ac0a2600833
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 2:0.50.0
