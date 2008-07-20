@@ -2,16 +2,16 @@ Summary:	Bulgarian dictionary for aspell
 Summary(bg.UTF-8):	Български речник за проверка на правописа за GNU Aspell
 Summary(pl.UTF-8):	Bułgarski słownik dla aspella
 Name:		aspell-bg
-Version:	4.0
+Version:	4.1
 %define	subv	0
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/Text
-Source0:	http://ftp.gnu.org/gnu/aspell/dict/bg/aspell5-bg-%{version}-%{subv}.tar.bz2
-# Source0-md5:	f1d9f1587cc382f10f1c7ac0a2600833
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/bg/aspell6-bg-%{version}-%{subv}.tar.bz2
+# Source0-md5:	e22f0634c48eae9c9fbdf9d569b8235c
 URL:		http://aspell.net/
-BuildRequires:	aspell >= 2:0.50.0
-Requires:	aspell >= 2:0.50.0
+BuildRequires:	aspell >= 3:0.60.0
+Requires:	aspell >= 3:0.60.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,7 +24,7 @@ Bulgarian dictionary (i.e. word list) for aspell.
 Bułgarski słownik (lista słów) dla aspella.
 
 %prep
-%setup -q -n aspell5-bg-%{version}-%{subv}
+%setup -q -n aspell6-bg-%{version}-%{subv}
 
 %build
 # note: configure is not autoconf-generated
