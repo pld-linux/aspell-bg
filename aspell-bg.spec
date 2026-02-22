@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Bułgarski słownik dla aspella
 Name:		aspell-bg
 Version:	4.1
 %define	subv	0
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		Applications/Text
 Source0:	http://ftp.gnu.org/gnu/aspell/dict/bg/aspell6-bg-%{version}-%{subv}.tar.bz2
