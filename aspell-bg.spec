@@ -12,6 +12,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/bg/aspell6-bg-%{version}-%{subv}.tar
 URL:		http://aspell.net/
 BuildRequires:	aspell >= 3:0.60.0
 Requires:	aspell >= 3:0.60.0
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -45,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Copyright README
 %lang(bg) %doc doc/README.BULGARIAN
-%{_libdir}/aspell/*
+%{_prefix}/lib/aspell/*
 %{_datadir}/aspell/*
